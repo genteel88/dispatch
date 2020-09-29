@@ -29,10 +29,10 @@ public class ApplicationConfig {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://"
-				+ "laiproject-instance.xxxx"
-				+ ":3306/dispatch1?serverTimeZone=UTC");
+				+ "delivery-instance.cottayujb1yg.us-east-2.rds.amazonaws.com"
+				+ ":3306/deliveryApp?serverTimeZone=UTC");
 		dataSource.setUsername("admin");
-		dataSource.setPassword("****");
+		dataSource.setPassword("12345678");
 		return dataSource;
 	}
 	
